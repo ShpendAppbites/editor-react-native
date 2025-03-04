@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'ios/**/*.{h,m,mm,swift}'
 
-  s.dependency 'IMGLYUI', s.version.to_s
+  s.dependency 'IMGLYUI', '5.10-custom'
 
   install_modules_dependencies(s)
 end
